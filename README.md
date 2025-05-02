@@ -3,6 +3,8 @@
 달의 모양을 선택하고, 목표를 달성할 때마다 달이 채워지는  
 비주얼 성장형 버킷리스트 웹사이트입니다.
 
+[![Visit moonon ➚](https://img.shields.io/badge/Visit--moonon-2e2e2e?style=for-the-badge&logo=netlify&logoColor=white)](https://moononlist.netlify.app)
+
 ## 🛠️ 기술 스택
 
 - React 18 + TypeScript
@@ -10,7 +12,7 @@
 - Emotion (CSS-in-JS)
 - ESLint Flat Config + Prettier
 - Zustand
-- Vercel 배포
+- Netilfy 배포
 
 ## 🚀 실행 방법
 
