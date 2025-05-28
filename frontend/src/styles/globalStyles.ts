@@ -41,4 +41,53 @@ export const globalStyles = css`
       "Segoe UI Symbol",
       sans-serif;
   }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  /* List 초기화 */
+  ul,
+  ol,
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Link 초기화 */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* 버튼 초기화 */
+  button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  /* input, textarea 초기화 */
+  input,
+  textarea {
+    font-family: inherit;
+    outline: none;
+    border: none;
+    background: none;
+  }
+
+  /* 이미지 기본 스타일 */
+  img {
+    display: block;
+    max-width: 100%;
+  }
 `;

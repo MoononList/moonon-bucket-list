@@ -4,13 +4,11 @@ import User from "@/assets/user.svg?react";
 import List from "@/assets/list.svg?react";
 
 export const Container = styled.header`
-  width: 100%;
   height: 56px;
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid red; */
   padding: 0 18px 0 18px;
 `;
 

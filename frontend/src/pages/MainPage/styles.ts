@@ -16,15 +16,16 @@ export const Wrapper = styled.div`
   }
 `;
 export const BodyWrapper = styled.div`
-  padding-bottom: 180px;
-  width: 100%;
-  height: calc(100vh - 106px);
+  min-height: calc(100vh - 108px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid red; */
 `;
 export const text = styled.h1`
+  position: relative;
+  padding-bottom: 180px;
   text-align: center;
   font-size: 16px;
   font-weight: 400;

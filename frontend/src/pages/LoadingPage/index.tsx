@@ -27,7 +27,7 @@ const LoadingPage = () => {
 
   return (
     <S.Wrapper fadeOut={fadeOut}>
-      <MoononLogo />
+      <MoononLogo width={80} />
       <S.Text>
         {fullText.split("").map((char, i) => (
           <S.FadeChar key={i} delay={i * interval}>
