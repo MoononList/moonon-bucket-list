@@ -17,10 +17,13 @@ export const globalStyles = css`
       url("https://cdn.jsdelivr.net/gh/fonts-archive/NEXONLv1Gothic/NEXONLv1Gothic-Regular.ttf")
         format("truetype");
   }
-  * {
+  html,
+  body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     box-sizing: border-box;
+    overscroll-behavior: contain;
     font-family:
       "Pretendard Variable",
       Pretendard,
@@ -37,8 +40,5 @@ export const globalStyles = css`
       "Segoe UI Emoji",
       "Segoe UI Symbol",
       sans-serif;
-  }
-
-  body {
   }
 `;

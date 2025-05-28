@@ -15,6 +15,8 @@ createRoot(document.getElementById("root")!).render(
         display: "flex",
         justifyContent: "center", // 가로 가운데
         margin: "0 auto",
+        overflow: "hidden",
+        touchAction: "none",
       }}
     >
       <App />
