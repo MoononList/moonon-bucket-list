@@ -11,7 +11,7 @@ function App() {
       <Global styles={globalStyles} />
       <Router>
         <Routes>
-          <Route path="" element={<LoadingPage />} />
+          <Route path="/" element={<LoadingPage />} />
           <Route path="/main" element={<MainPage />} />
         </Routes>
       </Router>{" "}
