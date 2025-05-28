@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Global } from "@emotion/react";
 import { globalStyles } from "styles/globalStyles";
 import LoadingPage from "./pages/LoadingPage";
+import MainPage from "./pages/MainPage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="" element={<LoadingPage />} />
+          <Route path="/main" element={<MainPage />} />
         </Routes>
       </Router>{" "}
     </>
