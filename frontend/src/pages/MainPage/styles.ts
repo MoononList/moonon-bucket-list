@@ -28,6 +28,6 @@ export const text = styled.h1`
   padding-bottom: 180px;
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #b0b0b0;
 `;

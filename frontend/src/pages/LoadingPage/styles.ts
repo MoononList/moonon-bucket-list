@@ -10,8 +10,9 @@ export const Wrapper = styled.div<{ fadeOut: boolean }>`
   opacity: ${({ fadeOut }) => (fadeOut ? 0 : 1)};
 `;
 export const Text = styled.p`
+  color: #333333;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Pretendard", sans-serif;
   display: flex;
   white-space: pre;

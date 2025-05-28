@@ -6,7 +6,7 @@ const LoadingPage = () => {
   return (
     <>
       <S.Wrapper>
-        <TopBar title="Moonon" />
+        <TopBar title="MOONON" />
         <S.BodyWrapper>
           <MoononMain width={150} />
           <S.text>문온리스트를 추가해주세요 :-)</S.text>

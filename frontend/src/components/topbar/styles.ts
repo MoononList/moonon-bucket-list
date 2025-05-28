@@ -9,12 +9,13 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 18px 0 18px;
+  padding: 0 20px 0 20px;
 `;
 
 export const Title = styled.h1`
-  font-size: 22px;
-  font-family: "NEXON Lv1 Gothic";
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-family: "Merry Loves", sans-serif;
   color: #ff511c;
 `;
 
