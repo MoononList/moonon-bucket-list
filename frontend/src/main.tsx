@@ -9,12 +9,11 @@ createRoot(document.getElementById("root")!).render(
     <Global styles={globalStyles} />
     <div
       style={{
-        width: "390px",
+        width: "350px",
         height: "100vh",
         background: "#F8F8F7",
         display: "flex",
-        justifyContent: "center", // 가로 가운데
-        margin: "0 auto",
+        padding: "0 20px",
         overflow: "hidden",
         touchAction: "none",
       }}
