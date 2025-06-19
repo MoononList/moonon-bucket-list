@@ -3,15 +3,16 @@ import KakaoLogoImg from "@/assets/kakaologo.svg?react";
 
 export const KakaoButton = styled.button`
   all: unset;
-  position: relative;
+  position: fixed;
   width: 100%;
+  max-width: 350px;
   height: 60px;
   font-size: 18px;
   font-weight: 400;
   background-color: #fee500;
   border-radius: 10px;
   cursor: pointer;
-
+  bottom: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
